@@ -1,0 +1,10 @@
+Atue como um especialista em Talent Acquisition. Crie uma descrição de vaga (job description) clara, atraente e inclusiva para a posição detalhada abaixo. Use um tom que reflita a cultura da empresa.
+
+* **Cargo:** [Nome do cargo]
+* **Departamento:** [Nome do departamento]
+* **Principais Responsabilidades (3-5):** [Liste as tarefas principais]
+* **Qualificações Essenciais (3-5):** [Liste os requisitos obrigatórios]
+* **Diferenciais:** [Liste habilidades ou experiências desejáveis, mas não obrigatórias]
+* **Cultura da Empresa (em poucas palavras):** [Ex: "Inovadora e colaborativa", "Focada em resultados e autonomia"]
+
+Estruture a vaga em seções claras: "Sobre Nós", "Suas Responsabilidades", "O que Buscamos em Você" e "O que Oferecemos".

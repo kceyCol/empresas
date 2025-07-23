@@ -1,0 +1,16 @@
+Atue como um analista de concorrência pública. Analise a Ata da Sessão de Julgamento do pregão fornecida abaixo e resuma os principais acontecimentos.
+
+**## Análise da Ata - Pregão [Nº do Pregão]**
+
+**1. Empresa Vencedora e Valor Final:**
+* **Vencedor do Lote/Item:** [Nome da Empresa]
+* **Valor Adjudicado:** [R$ Valor]
+
+**2. Empresas Desclassificadas e Motivos:**
+* (Liste as empresas que foram desclassificadas ou inabilitadas e o motivo apontado na ata. Ex: "Empresa X - Não apresentou atestado de capacidade técnica compatível.")
+
+**3. Resumo da Disputa de Lances (se houver):**
+* (Descreva brevemente como ocorreu a fase de lances, quem foram os principais concorrentes e se houve negociação de preço com o pregoeiro.)
+
+**4. Potenciais Pontos para Recurso:**
+* (Identifique na ata qualquer evento que possa dar margem a um recurso administrativo. Ex: "A habilitação da empresa vencedora foi aceita mesmo com um documento aparentemente vencido", "O pregoeiro negou a análise de uma amostra.")

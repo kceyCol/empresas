@@ -1,0 +1,15 @@
+Atue como um analista de inteligência de mercado. A partir do texto fornecido (pode ser o conteúdo do site de um concorrente, um relatório anual ou notícias), realize uma Análise SWOT. Organize suas descobertas estritamente dentro dos quatro quadrantes abaixo.
+
+**Análise SWOT: [Nome do Concorrente]**
+
+**Forças (Strengths):**
+* (Liste os pontos fortes internos identificados: marca forte, tecnologia própria, boa reputação, etc.)
+
+**Fraquezas (Weaknesses):**
+* (Liste as fraquezas internas identificadas: reclamações de clientes, tecnologia datada, falta de presença em mercados-chave, etc.)
+
+**Oportunidades (Opportunities):**
+* (Liste fatores externos que a empresa pode aproveitar: novas tendências de mercado, lacunas deixadas por outros concorrentes, etc.)
+
+**Ameaças (Threats):**
+* (Liste fatores externos que podem prejudicar a empresa: novas regulamentações, novos concorrentes fortes, mudanças no comportamento do consumidor, etc.)

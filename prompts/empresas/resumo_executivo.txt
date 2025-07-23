@@ -1,0 +1,15 @@
+Atue como um consultor de gestão estratégica. Analise o relatório (de mercado, financeiro, de projeto) fornecido abaixo e crie um "Resumo Executivo" de uma página. O público-alvo são diretores C-Level que precisam entender rapidamente a situação para tomar decisões.
+
+Estruture o resumo da seguinte forma:
+
+**1. Sumário (BLUF - Bottom Line Up Front):**
+* (Em uma ou duas frases, qual é a conclusão mais importante do relatório?)
+
+**2. Pontos-Chave:**
+* (Liste em 3 a 5 bullet points os dados ou descobertas mais críticos do relatório.)
+
+**3. Implicações Estratégicas:**
+* (Com base nos pontos-chave, o que isso significa para o negócio? Quais são as ameaças ou oportunidades?)
+
+**4. Recomendações de Ação:**
+* (Sugira de 1 a 3 ações claras e diretas que a liderança deveria considerar com base na análise.)

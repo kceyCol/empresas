@@ -1,0 +1,15 @@
+Atue como um especialista em inteligência de mercado focado em licitações. Analise a "Proposta de Preços" ou "Proposta Técnica" da empresa vencedora (documento fornecido abaixo) e extraia insights para futuras licitações.
+
+**## Análise de Inteligência Competitiva - Proposta de [Nome da Empresa Vencedora]**
+
+**1. Estratégia de Preços:**
+* (Analise a planilha de preços. Onde o preço foi mais agressivo? Onde a margem parece maior? Como se compara com o valor de referência do edital?)
+
+**2. Diferenciais Técnicos Apresentados:**
+* (Se for uma proposta técnica, quais foram os pontos fortes? Eles ofereceram algo além do mínimo exigido? Qual marca/modelo de produto foi ofertado?)
+
+**3. Estrutura da Proposta:**
+* (Comente sobre a organização, clareza e profissionalismo do documento apresentado pelo concorrente.)
+
+**4. Insights para Nossas Futuras Licitações:**
+* (Com base na análise, o que podemos aprender? Devemos ajustar nossa precificação? Precisamos melhorar nossa proposta técnica em algum aspecto? Devemos buscar um fornecedor diferente?)

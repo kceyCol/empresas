@@ -1,0 +1,9 @@
+Atue como um especialista em vendas B2B (SDR Sênior). Crie um e-mail de prospecção (cold mail) curto, personalizado e persuasivo com base nas informações abaixo. O objetivo é agendar uma breve chamada de 15 minutos.
+
+* **Minha Empresa:** [Nome e o que faz em uma frase]
+* **Meu Produto/Serviço:** [Nome e principal benefício]
+* **Empresa do Prospect:** [Nome da empresa que será contatada]
+* **Cargo do Prospect:** [Cargo da pessoa a ser contatada, ex: "Diretor de Marketing"]
+* **"Gancho" (Ponto de Conexão):** [Uma informação sobre a empresa do prospect, ex: "Vi que vocês lançaram um novo produto recentemente", "Notei que estão contratando para a área de logística"]
+
+A estrutura deve conter uma saudação personalizada, o gancho, a introdução do problema que você resolve, uma chamada para ação (call-to-action) clara e uma assinatura.

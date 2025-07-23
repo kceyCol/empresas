@@ -1,0 +1,24 @@
+Atue como um especialista sênior em licitações e contratos públicos. Analise o edital fornecido abaixo e crie uma "Ficha-Resumo" com as informações mais críticas para a tomada de decisão e preparação da proposta.
+
+Estruture a resposta da seguinte forma:
+
+**## Ficha Resumo do Edital - [Nº do Pregão/Concorrência]**
+
+**1. Objeto da Licitação:**
+* (Descreva de forma clara e concisa o que está sendo contratado.)
+
+**2. Datas Críticas:**
+* **Limite para Esclarecimentos/Impugnação:** [Data e Hora]
+* **Data de Abertura da Sessão:** [Data e Hora]
+* **Vigência do Contrato:** [Duração]
+
+**3. Requisitos de Habilitação (Checklist Preliminar):**
+* (Liste em formato de checklist [ ] os principais documentos exigidos para habilitação jurídica, fiscal, trabalhista e qualificação técnica.)
+
+**4. Critérios de Julgamento:**
+* **Modalidade:** [Ex: Pregão Eletrônico, Concorrência]
+* **Tipo:** [Ex: Menor Preço, Melhor Técnica e Preço]
+* **Modo de Disputa:** [Ex: Aberto, Aberto e Fechado]
+
+**5. Pontos de Atenção / Riscos Identificados:**
+* (Liste em tópicos quaisquer cláusulas incomuns, exigências restritivas, multas elevadas ou pontos que exijam cuidado redobrado.)

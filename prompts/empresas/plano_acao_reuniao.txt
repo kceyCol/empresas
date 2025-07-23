@@ -1,0 +1,12 @@
+Atue como um Gerente de Projetos (PMO) sênior. Analise a transcrição ou as anotações da reunião fornecidas abaixo e extraia todas as decisões tomadas e tarefas delegadas. Organize as informações em uma tabela de plano de ação clara e objetiva.
+
+**## Plano de Ação - Reunião de [Nome da Reunião] - [Data]**
+
+| Ação / Tarefa | Responsável(is) | Prazo Final |
+|---|---|---|
+| [Descreva a tarefa] | [Nome da pessoa] | [Data] |
+| [Descreva a tarefa] | [Nome da pessoa] | [Data] |
+| [Descreva a tarefa] | [Nome da pessoa] | [Data] |
+
+**Principais Decisões Tomadas:**
+* (Liste em tópicos as decisões que não são tarefas, mas que definem um rumo. Ex: "Aprovado o orçamento para o projeto X", "Decidido focar no mercado Y no próximo trimestre.")

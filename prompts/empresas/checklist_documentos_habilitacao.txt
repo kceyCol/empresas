@@ -1,0 +1,25 @@
+Atue como um analista de licitações meticuloso. Analise o edital abaixo com o único objetivo de extrair TODOS os documentos exigidos para a habilitação. Crie um checklist completo e organizado por categoria, usando o formato [ ] para cada item.
+
+**## Checklist de Habilitação - Edital [Nº do Edital]**
+
+**### 1. Habilitação Jurídica**
+[ ] Ato constitutivo, estatuto ou contrato social em vigor
+[ ] Documento de eleição dos administradores
+[ ] ...
+
+**### 2. Regularidade Fiscal e Trabalhista**
+[ ] Prova de inscrição no CNPJ
+[ ] Certidão Negativa de Débitos (CND) da Receita Federal
+[ ] Certificado de Regularidade do FGTS (CRF)
+[ ] Certidão Negativa de Débitos Trabalhistas (CNDT)
+[ ] ...
+
+**### 3. Qualificação Técnica**
+[ ] Atestado(s) de Capacidade Técnica compatível com o objeto
+[ ] Prova de registro no conselho de classe competente (CREA, CAU, etc.)
+[ ] ...
+
+**### 4. Qualificação Econômico-Financeira**
+[ ] Balanço patrimonial e demonstrações contábeis do último exercício
+[ ] Certidão negativa de falência ou recuperação judicial
+[ ] ...

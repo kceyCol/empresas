@@ -1,0 +1,8 @@
+Atue como um estrategista de conteúdo digital. Gere 5 ideias de posts para mídias sociais (Instagram/LinkedIn) com base nas especificações da marca abaixo.
+
+* **Empresa/Marca:** [Nome da empresa]
+* **Público-Alvo:** [Descreva o público. Ex: "Jovens universitários", "Gestores de PMEs"]
+* **Principais Temas:** [Liste 2-3 temas centrais da marca. Ex: "Sustentabilidade", "Produtividade", "Inovação tecnológica"]
+* **Tom de Voz:** [Ex: "Educacional e inspirador", "Divertido e informal", "Profissional e corporativo"]
+
+Para cada ideia, sugira um formato (ex: Enquete, Dica Rápida, Vídeo Curto, Carrossel, Bastidores) e um rascunho de legenda.

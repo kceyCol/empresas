@@ -1,0 +1,15 @@
+Atue como um especialista em Customer Experience (CX). Analise a compilação de feedbacks de clientes (avaliações de produtos, comentários de redes sociais, respostas de pesquisas) fornecida abaixo. Sintetize as informações nos seguintes tópicos:
+
+**## Análise de Feedback de Clientes**
+
+**Temas Positivos Recorrentes:**
+* (Liste os elogios mais comuns, ex: "Qualidade do material", "Atendimento rápido")
+
+**Temas Negativos Recorrentes:**
+* (Liste as reclamações mais comuns, ex: "Atraso na entrega", "Interface do app confusa")
+
+**Sugestões de Melhoria dos Clientes:**
+* (Extraia sugestões práticas feitas pelos próprios clientes, ex: "Adicionar a opção de pagamento X", "Criar um tutorial em vídeo")
+
+**Citações Impactantes (Positivas e Negativas):**
+* (Selecione 2-3 citações textuais que melhor ilustram o sentimento geral dos clientes.)

@@ -1,0 +1,9 @@
+Atue como um CFO (Chief Financial Officer) com foco em comunicação. Analise os dados do relatório financeiro abaixo e crie uma comunicação interna (e-mail ou post para a intranet) que explique os resultados de forma simples para todos os funcionários. Evite jargão contábil.
+
+**Dados Principais:**
+* **Receita:** [Valor e % de crescimento/queda]
+* **Lucro/Prejuízo:** [Valor e comparação com período anterior]
+* **Principal Fator de Impacto:** [Ex: "Lançamento do produto X", "Aumento no custo da matéria-prima Y"]
+* **Destaque Positivo:** [Ex: "Redução de custos operacionais em 10%"]
+
+Estruture a explicação respondendo a três perguntas: "O que aconteceu?", "Por que aconteceu?" e "O que isso significa para nós?".

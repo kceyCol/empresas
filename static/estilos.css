@@ -1,0 +1,451 @@
+.btn-copiar { background-color: #A3B8A0; border-color: #A3B8A0; color: white; }
+.btn-copiar:hover { background-color: #7a9177; border-color: #7a9177; color: white; }
+
+.btn-gemini { background-color: #005F6B; border-color: #005F6B; color: white; }
+.btn-gemini:hover { background-color: #003d45; border-color: #003d45; color: white; }
+
+.btn-chatgpt { background-color: #EAD2C2; border-color: #EAD2C2; color: #333; }
+.btn-chatgpt:hover { background-color: #dbb89e; border-color: #dbb89e; color: #222; }
+
+.btn-deepseek { background-color: #B86B5E; border-color: #B86B5E; color: white; }
+.btn-deepseek:hover { background-color: #954a3c; border-color: #954a3c; color: white; }
+
+.btn-claude { background-color: #D4A05D; border-color: #D4A05D; color: white; }
+.btn-claude:hover { background-color: #b8853a; border-color: #b8853a; color: white; }
+
+.btn-perplexity { background-color: #4A4A4A; border-color: #4A4A4A; color: white; }
+.btn-perplexity:hover { background-color: #2a2a2a; border-color: #2a2a2a; color: white; }
+
+.btn-manus { background-color: #F7F5F2; border-color: #F7F5F2; color: #333; }
+.btn-manus:hover { background-color: #e8e3dc; border-color: #e8e3dc; color: #222; }
+
+/* Padronização de altura dos cards */
+.tipo-card {
+    cursor: pointer;
+    transition: all 0.3s;
+    height: 120px; /* Altura fixa para todos os cards */
+    border: 2px solid transparent;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+
+.tipo-card .card-body {
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.tipo-card .card-title {
+    font-size: 0.85rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto;
+    max-height: 2.4em; /* Limita a 2 linhas */
+}
+
+.tipo-card .card-icon {
+    font-size: 1.8rem !important; /* Aumentado de 1.5rem para 1.8rem (+20%) */
+    margin-bottom: 8px;
+    color: #0d6efd;
+    flex-shrink: 0;
+}
+
+/* Garantir que todos os cards tenham a mesma altura independente do conteúdo */
+.row.g-3 .col {
+    display: flex;
+}
+
+.row.g-3 .col .tipo-card {
+    width: 100%;
+}
+
+/* Ajustes específicos para responsividade */
+@media (max-width: 991px) {
+    .tipo-card {
+        height: 100px; /* Altura menor em telas médias */
+    }
+    
+    .tipo-card .card-icon {
+        font-size: 1.56rem !important; /* Aumentado de 1.3rem para 1.56rem (+20%) */
+        margin-bottom: 6px;
+    }
+    
+    .tipo-card .card-title {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .tipo-card {
+        height: 90px; /* Altura ainda menor em mobile */
+    }
+    
+    .tipo-card .card-icon {
+        font-size: 1.44rem !important; /* Aumentado de 1.2rem para 1.44rem (+20%) */
+        margin-bottom: 5px;
+    }
+    
+    .tipo-card .card-title {
+        font-size: 0.75rem;
+        max-height: 2em;
+    }
+}
+
+/* Hover e estados ativos mantidos */
+.tipo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: #e9ecef;
+}
+
+.tipo-card.selected {
+    border-color: #0d6efd;
+    background-color: #e7f1ff;
+}
+
+.tipo-card:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    background-color: #e9ecef;
+}
+
+.card-icon {
+    font-size: 2.4rem; /* Aumentado de 2rem para 2.4rem (+20%) */
+    margin-bottom: 10px;
+    color: #0d6efd;
+}
+
+
+/* Estilos para o popup */
+.card-tooltip {
+    position: relative;
+}
+
+.card-tooltip .tooltip-text {
+    visibility: hidden;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -125px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.85rem;
+    pointer-events: none;
+}
+
+.card-tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
+.card-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Melhorias para mobile */
+@media (max-width: 768px) {
+    .tipo-card {
+        margin-bottom: 1rem;
+    }
+    
+    .card-tooltip .tooltip-text {
+        width: 200px;
+        margin-left: -100px;
+        font-size: 0.8rem;
+    }
+    
+    #botoesAcoes {
+        flex-direction: column;
+    }
+    
+    #botoesAcoes .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Suporte para touch devices */
+.tipo-card:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    background-color: #e9ecef;
+}
+
+/* Melhor feedback visual para botões em mobile */
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Tooltip para touch devices */
+.card-tooltip.show-tooltip .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Botão de configurações mais chamativo */
+.btn-config {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-config:hover {
+    background: linear-gradient(45deg, #ee5a24, #ff6b6b);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+    color: white;
+}
+
+.btn-config:active {
+    transform: translateY(0);
+}
+
+/* Estilo para informações de IP */
+.ip-info {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 0.85rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ip-item {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ip-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.ip-value {
+    font-family: 'Courier New', monospace;
+    background: #f8f9fa;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #0d6efd;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.ip-value:hover {
+    background: #e9ecef;
+}
+
+@media (max-width: 768px) {
+    .header-info {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .ip-info {
+        width: 100%;
+    }
+}
+
+
+/* Fundos claros para cada categoria - ALTURA DINÂMICA */
+.categoria-gestao {
+    background-color: #f8f9ff;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-left: 4px solid #0d6efd;
+    /* Remover altura fixa - deixar se adaptar ao conteúdo */
+    min-height: auto;
+    height: auto;
+}
+
+.categoria-marketing {
+    background-color: #f0fff4;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-left: 4px solid #198754;
+    min-height: auto;
+    height: auto;
+}
+
+.categoria-rh {
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-left: 4px solid #0dcaf0;
+    min-height: auto;
+    height: auto;
+}
+
+.categoria-licitacoes {
+    background-color: #fffbf0;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 8px; /* Última categoria com menos margin */
+    border-left: 4px solid #ffc107;
+    min-height: auto;
+    height: auto;
+}
+
+/* Ajustar os grids para se adaptarem ao conteúdo */
+.categoria-gestao .row,
+.categoria-marketing .row,
+.categoria-rh .row,
+.categoria-licitacoes .row {
+    margin-bottom: 0;
+    /* Permitir que o grid se ajuste ao número de cards */
+    min-height: auto;
+}
+
+/* Remover margens fixas do Bootstrap que causam altura fixa */
+.mb-4, .mb-5 {
+    margin-bottom: 0 !important;
+}
+
+/* Aplicar margin-bottom apenas às categorias */
+.categoria-gestao,
+.categoria-marketing,
+.categoria-rh {
+    margin-bottom: 12px !important;
+}
+
+.categoria-licitacoes {
+    margin-bottom: 8px !important;
+}
+
+/* Ajustar espaçamento dos cards dentro das categorias */
+.categoria-gestao .tipo-card,
+.categoria-marketing .tipo-card,
+.categoria-rh .tipo-card,
+.categoria-licitacoes .tipo-card {
+    margin-bottom: 0;
+}
+
+/* Garantir que categorias com poucos cards ocupem menos espaço */
+.categoria-rh {
+    /* RH tem apenas 1 card, então deve ser mais compacta */
+    padding: 10px 15px;
+}
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+    .categoria-gestao,
+    .categoria-marketing,
+    .categoria-rh,
+    .categoria-licitacoes {
+        padding: 8px 12px;
+        margin-bottom: 8px !important;
+    }
+    
+    .categoria-licitacoes {
+        margin-bottom: 5px !important;
+    }
+}
+
+/* Otimizar espaçamento vertical dos grids */
+.row.g-3 {
+    --bs-gutter-y: 0.75rem;
+}
+
+.row.g-4 {
+    --bs-gutter-y: 0.75rem;
+}
+
+
+/* Ajustes nos títulos das categorias */
+.categoria-gestao h6 {
+    color: #0d6efd !important;
+}
+
+.categoria-marketing h6 {
+    color: #198754 !important;
+}
+
+.categoria-rh h6 {
+    color: #0dcaf0 !important;
+}
+
+.categoria-licitacoes h6 {
+    color: #ffc107 !important;
+}
+
+
+/* Otimizações para layout de duas colunas */
+@media (min-width: 768px) {
+    .row {
+        min-height: calc(100vh - 200px);
+    }
+    
+    .h-100 {
+        height: 100% !important;
+    }
+}
+
+/* Cards menores para melhor aproveitamento do espaço */
+.tipo-card .card-body {
+    padding: 0.75rem;
+}
+
+.tipo-card .card-title {
+    font-size: 0.85rem;
+    line-height: 1.2;
+}
+
+.tipo-card .card-icon {
+    font-size: 1.56rem !important; /* Aumentado de 1.3rem para 1.56rem (+20%) */
+    margin-bottom: 5px;
+}
+
+/* Responsividade melhorada */
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+    
+    .col-md-6:first-child {
+        margin-bottom: 1rem;
+    }
+    
+    #outputPrompt {
+        min-height: 300px !important;
+    }
+}
+
+/* Scroll suave para a área de tipos */
+.col-md-6:first-child .card {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+}

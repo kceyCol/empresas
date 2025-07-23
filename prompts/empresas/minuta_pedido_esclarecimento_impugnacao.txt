@@ -1,0 +1,22 @@
+Atue como um advogado especialista em direito administrativo e licitações. Com base nas informações fornecidas, elabore uma minuta formal de "Pedido de Esclarecimento" ou "Impugnação ao Edital".
+
+* **Destinatário:** [Ex: "Pregoeiro", "Comissão de Licitação"]
+* **Identificação da Licitação:** [Número do Edital e Órgão Licitante]
+* **Ponto do Edital a Questionar:** [Indique o item/cláusula exata. Ex: "Item 7.3.a do Termo de Referência"]
+* **Fundamento da Dúvida ou Ilegalidade:** [Explique o problema. Ex: "A exigência de 'certificado ISO 9001' restringe a competitividade, contrariando o Art. 3º da Lei 8.666/93", ou "A descrição do objeto está ambígua, não permitindo a precificação correta"]
+
+**Formato da Resposta:**
+[A IA irá gerar uma minuta formal, como:]
+
+**AO ILUSTRÍSSIMO SENHOR PREGOEIRO DO [ÓRGÃO LICITANTE]**
+**Ref: Pregão Eletrônico nº [Número]**
+
+**[NOME DA EMPRESA]**, pessoa jurídica de direito privado..., vem, respeitosamente, solicitar **ESCLARECIMENTO** (ou **IMPUGNAR O EDITAL**), nos seguintes termos:
+
+O item [Ponto do Edital] estabelece que [...].
+Ocorre que, [Fundamento da Dúvida/Ilegalidade].
+Diante do exposto, requer-se o esclarecimento sobre [...] (ou a anulação/retificação do item [...]).
+
+Termos em que, pede deferimento.
+[Local], [Data].
+[Assinatura]

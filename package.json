@@ -1,0 +1,30 @@
+{
+  "name": "prepara-prompt",
+  "version": "1.0.0",
+  "description": "Gerador de Prompts para IA com upload de PDF e extração de texto",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "python app.py",
+    "install-python-deps": "pip install -r requirements.txt"
+  },
+  "keywords": [
+    "ai",
+    "prompts",
+    "pdf",
+    "text-extraction",
+    "flask",
+    "bootstrap"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  }
+}
