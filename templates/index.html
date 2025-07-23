@@ -124,6 +124,15 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col">
+                                <div class="card tipo-card card-tooltip" data-tipo="roteiro_entrevista_competencias">
+                                    <div class="tooltip-text">Cria roteiros de entrevista com perguntas comportamentais para avaliar competências específicas.</div>
+                                    <div class="card-body text-center py-2">
+                                        <div class="card-icon" style="font-size: 1.5rem;">🎯</div>
+                                        <h6 class="card-title mb-0" style="font-size: 0.9rem;">Roteiro de Entrevista por Competências</h6>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
@@ -251,6 +260,8 @@
                 // Eventos para tooltip em dispositivos touch
                 if (isTouchDevice) {
                     card.addEventListener('touchstart', function(e) {
+                        e.preventDefault();
+                        
                         // Limpar timeout anterior
                         clearTimeout(tooltipTimeout);
                         
@@ -267,15 +278,15 @@
                             this.classList.remove('show-tooltip');
                         }, 3000);
                     });
-                }
-                
-                // Inicializar tooltips a partir do atributo data-descricao
-                const descricao = card.getAttribute('data-descricao');
-                if (descricao) {
-                    const tooltipElement = card.querySelector('.tooltip-text');
-                    if (tooltipElement) {
-                        tooltipElement.textContent = descricao;
-                    }
+                } else {
+                    // Para dispositivos desktop, adicionar eventos de mouse
+                    card.addEventListener('mouseenter', function() {
+                        this.classList.add('show-tooltip');
+                    });
+                    
+                    card.addEventListener('mouseleave', function() {
+                        this.classList.remove('show-tooltip');
+                    });
                 }
             });
             
@@ -289,6 +300,9 @@
                     }
                 });
             }
+            
+            // Gerar prompt inicial
+            gerarPromptAutomatico('resumo_executivo');
         });
 
         // Nova função para gerar prompt automaticamente

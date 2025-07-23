@@ -1,0 +1,41 @@
+Atue como um especialista sênior em Recrutamento e Seleção e Psicologia Organizacional. Crie um roteiro de entrevista estruturado e baseado em competências (entrevista comportamental) para a vaga descrita abaixo. O objetivo é fornecer ao entrevistador um guia claro para avaliar as habilidades do candidato de forma justa e profunda.
+
+* **Cargo:** [Nome do cargo. Ex: "Analista de Marketing Pleno"]
+* **Principais Responsabilidades do Cargo:** [Resuma as 2 ou 3 principais atividades. Ex: "Gerenciar campanhas de mídia paga", "Analisar métricas de performance", "Colaborar com o time de vendas"]
+* **Competências-Chave a serem Avaliadas:** [Liste de 3 a 4 competências essenciais. Ex: "Pensamento Analítico", "Comunicação Interpessoal", "Resolução de Problemas", "Proatividade"]
+
+**Formato da Resposta:**
+
+**## Roteiro de Entrevista Estruturada: [Nome do Cargo]**
+
+**### 1. Abertura e Quebra-Gelo (5 min)**
+* (Sugestão de script para o entrevistador se apresentar, explicar a dinâmica da entrevista e deixar o candidato à vontade.)
+* Pergunta sugerida: "Para começar, me conte de forma resumida sobre sua trajetória profissional e o que te atraiu nesta vaga."
+
+**### 2. Avaliação de Competências Comportamentais (30 min)**
+*(Para cada competência listada, forneça 2-3 perguntas que incentivem o candidato a contar uma história sobre uma situação passada.)*
+
+**Competência: [Primeira Competência, ex: Pensamento Analítico]**
+* "Descreva uma situação em que você precisou analisar um grande volume de dados para tomar uma decisão importante. Como você abordou isso e qual foi o resultado?"
+* "Conte sobre um momento em que sua análise de dados revelou algo inesperado ou contrário à intuição da equipe. O que você fez?"
+
+**Competência: [Segunda Competência, ex: Resolução de Problemas]**
+* "Fale sobre o problema mais complexo que você já teve que resolver no trabalho. Qual era o desafio e como você o solucionou passo a passo?"
+* "Descreva uma vez em que algo deu muito errado em um projeto seu. Como você lidou com a situação para contornar o problema?"
+
+**(Continue para todas as competências listadas...)**
+
+**### 3. Perguntas do Candidato e Alinhamento Cultural (10 min)**
+* (Espaço para o candidato fazer perguntas sobre a empresa, a equipe e a vaga.)
+* Pergunta sugerida: "O que você busca em um ambiente de trabalho para se sentir motivado e produtivo?"
+
+**### 4. Encerramento (5 min)**
+* (Sugestão de script para agradecer o candidato e explicar os próximos passos do processo seletivo.)
+
+**---**
+**Guia para o Entrevistador: Avaliando as Respostas (Método STAR)**
+* Lembre-se de avaliar as respostas buscando a estrutura STAR:
+    * **S**ituação: Qual era o contexto?
+    * **T**arefa: Qual era o seu objetivo ou responsabilidade?
+    * **A**ção: O que você especificamente fez?
+    * **R**esultado: Qual foi o desfecho? O que você aprendeu?

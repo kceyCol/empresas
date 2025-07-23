@@ -28,7 +28,7 @@ if not os.path.exists(app.config['PROMPTS_FOLDER']):
 # Estrutura para armazenar os tipos de prompts disponíveis por categoria
 PROMPTS_TIPOS = {
     'empresas': ['resumo_executivo', 'analise_swot_concorrente', 'analise_sentimento_cliente', 
-                'elaboracao_email_prospeccao', 'criacao_descricao_vaga', 'plano_acao_reuniao',
+                'elaboracao_email_prospeccao', 'criacao_descricao_vaga', 'roteiro_entrevista_competencias', 'plano_acao_reuniao',
                 'brainstorm_conteudo_midias_sociais', 'simplificador_relatorio_financeiro', 
                 'analisador_edital_ficha_resumo', 'checklist_documentos_habilitacao',
                 'minuta_pedido_esclarecimento_impugnacao', 'analise_ata_julgamento_sessao',
